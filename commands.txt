@@ -1,0 +1,21 @@
+git init
+git add l1.txt
+git commit -m'Initial commit'
+git add l1.txt
+git commit-m 'modify l1.txt'
+git remote add origin https://github.com/oliverDX1234/github1.git
+git remote -v
+git push -u origin master
+git reset HEAD l1.txt
+git checkout -- l1.txt
+git branch logging
+git checkout logging
+git log
+git add log.txt
+git commit -m'.'
+git push -u origin
+git checkout master
+git merge logging 
+
+
+
